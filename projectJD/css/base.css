@@ -1,0 +1,435 @@
+/************** 公共样式 ****************/
+
+/**** 声明图标字体 ****/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ykwnyw');
+  src:  url('../fonts/icomoon.eot?ykwnyw#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ykwnyw') format('truetype'),
+    url('../fonts/icomoon.woff?ykwnyw') format('woff'),
+    url('../fonts/icomoon.svg?ykwnyw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*********************/
+body {
+	font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+	background-color: #f6f6f6;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+
+a:hover {
+	color: #c81623;
+}
+
+/*** 版心公共类 ***/
+.w {
+	width: 1192px;
+	margin: 0 auto;
+}
+
+/*** 浮动公共类 ***/
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+/*** 京东红 ***/
+.JDred {
+	color: #f10015;
+}
+
+/*** 快速导航栏 ***/
+.shortcut {
+	height: 30px;
+	font-size: 12px;
+	color: #999999;
+	line-height: 30px;
+	background-color: #e3e4e5;
+	border-bottom: 1px solid #dddddd;
+}
+
+.shortcut li {
+	float: left;
+}
+
+.shortcut i {
+	font-family: "icomoon";
+	font-style: normal;
+	font-size: 10px;
+}
+
+.city {
+	margin-left: 210px;
+}
+
+.space {
+	width: 1px;
+	height: 10px;
+	margin: 10px 12px 0;
+	background-color: #ccc;
+}
+
+/*** 手机京东二维码移动 ***/
+.shortcut li:last-child {
+	position: relative;
+}
+
+.mobile {
+	position: absolute;
+	top: 30px;
+	left: -8px;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #ccc;
+	padding: 3px;
+	z-index: 1;
+}
+
+/********   中间部分的样式    ************/
+.middle {
+	position: relative;
+	height: 140px;
+	z-index: 0;
+}
+
+.logo {
+	position: absolute;
+	width: 190px;
+	height: 170px;
+	top: -30px;
+	box-shadow: 0 -4px 14px rgba(0,0,0,0.2);
+}
+
+/*** 清除h1内外边距 ***/
+.logo h1 {
+	margin: 0;
+	padding: 0;
+}
+
+/**********  搜索栏样式  **************/
+.form {
+	position: absolute;
+	top: 24px;
+	left: 320px;
+	width: 550px;
+	height: 36px;
+}
+
+/*** 清除input和button的内外边距 ****/
+input, button {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	float: left;
+}
+
+.form input {
+	width: 500px;
+	height: 36px;
+	border: 1px solid #f10015;
+	font-size: 16px;
+	padding-left: 8px;
+	box-sizing: border-box;
+}
+
+.form button {
+	width: 50px;
+	height: 36px;
+	border: 0;
+	background-color: #f10015;
+}
+
+.form i {
+	font-family: "icomoon";
+	font-size: 18px;
+	font-style: normal;
+	color: #fff;
+}
+
+.search {
+	position: relative;
+}
+
+.form .search i {
+	position: absolute;
+	top: 8px;
+	right: 66px;
+	color: #000;
+}
+
+/*******  购物车样式   ********/
+.cart {
+	position: absolute;
+	top: 24px;
+	left: 902px;
+	width: 188px;
+	height: 33px;
+	border: 1px solid #e3e4e5;
+	background-color: #fff;
+	font-size: 12px;
+	color: #f10015;
+	text-align: center;
+	line-height: 33px;
+}
+
+.cart i {
+	font-family: "icomoon";
+	font-style: normal;
+	margin-right: 10px;
+}
+
+.cart span {
+	position: absolute;
+	top: 5px;
+	right: 32px;
+	width: 15px;
+	height: 15px;
+	color: #fff;
+	line-height: 15px;
+	border-radius: 50%;
+	background-color: #f10015;
+}
+
+/******  热词样式   **********/
+.hotwords {
+	position: absolute;
+	top: 70px;
+	left: 320px;
+	font-size: 12px;
+}
+
+/*******  小导航栏样式   **********/
+.navitems {
+	position: absolute;
+	bottom: 0;
+	left: 200px;
+	width: 790px;
+	height: 38px;
+}
+
+.navitems li {
+	float: left;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 38px;
+	margin-left: 30px;
+}
+
+.navitems a {
+	color: #555;
+}
+
+.navitems a:hover {
+	color: #f10015;
+}
+
+.navitems li.space {
+	margin: 14px 0;
+	margin-left: 21px;
+	margin-right: -9px;
+	height: 12px;
+}
+
+/*******	页面尾部分样式		*********/
+footer {
+	height: 568px;
+	margin-top: 30px;
+	background-color: #eaeaea;
+}
+
+.service {
+	height: 102px;
+	border-bottom: 1px solid #dedede;
+}
+
+.service ul li {
+	position: relative;
+	width: 298px;
+	float: left;
+}
+
+/*** 清除h5内外边距 ***/
+.service h5 {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 30px;
+	left: 38px;
+	width: 36px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	text-indent: -999em;
+	background: url(../images/ico_service.png) no-repeat 0 0;
+}
+
+.service li:nth-child(2) h5 {
+	background-position: 0 -42px;
+}
+
+.service li:nth-child(3) h5 {
+	background-position: 0 -86px;
+}
+
+.service li:nth-child(4) h5 {
+	background-position: 0 -128px;
+}
+
+
+.service ul li p {
+	margin: 0;
+	margin-left: 82px;
+	padding: 42px 0;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+/****  帮助模块样式     ****/
+.help {
+	height: 200px;
+	border-bottom: 1px solid #dedede;
+}
+
+.help dl {
+	margin: 0;
+	padding: 0;
+	width: 192px;
+	float: left;
+}
+
+.help dt {
+	font-size: 16px;
+	color: #7b6666;
+	margin: 26px 0 14px;
+}
+
+.help dd {
+	margin: 0;
+	padding: 0;
+	height: 22px;
+	font-size: 12px;
+}
+
+.help dd a {
+	color: #666;
+}
+
+.help dd a:hover {
+	color: #f10015;
+}
+
+.coverage {
+	width: 207px;
+	height: 152px;
+	background: url(../images/ico_footer.png) no-repeat;
+}
+
+.coverage h5 {
+	color: #7b6666;
+	font-size: 16px;
+	text-align: center;
+	margin: 25px 0 20px;
+}
+
+.coverage p {
+	font-size: 12px;
+	color: #666;
+	line-height: 18px;
+	margin: 0 0 7px 0;
+	padding: 0 14px;
+}
+
+.coverage a {
+	color: #666;
+	font-size: 12px;
+	float: right;
+}
+
+.coverage a:hover {
+	color: #f10015;
+}
+
+/**** 版权模块 ****/
+.copyright {
+	margin: 20px auto 0;
+	position: relative;
+}
+
+.copyright p {
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 17px;
+}
+
+.copyright p a {
+	color: #666;
+}
+
+.copyright p a:hover {
+	color: #f10015;
+}
+
+.copyright span.space1 {
+	color: #dfd5ce;
+	margin: 0 5px;
+}
+
+.copyright div p {
+	margin-bottom: 9px;
+	color: #999;
+}
+
+.copyright div p a,
+.copyright div p a:hover {
+	color: #999;
+}
+
+.copyright .foot-icon {
+	position: absolute;
+	bottom: -60px;
+	left: 50%;
+	margin-left: -309px;
+}
+
+.copyright .foot-icon a {
+	display: block;
+	float: left;
+	width: 103px;
+	height: 32px;
+	margin-right: 8px;
+	background: url(../images/ico_footer.png) no-repeat 0 -150px;
+}
+
+.copyright .foot-icon a:nth-child(2) {
+	background-position: -104px -150px;
+}
+
+.copyright .foot-icon a:nth-child(3) {
+	background-position: 0 -183px;
+}
+
+.copyright .foot-icon a:nth-child(4) {
+	background-position: -104px -183px;
+}
+
+.copyright .foot-icon a:nth-child(5) {
+	background-position: 0px -216px;
+}
+
+.copyright .foot-icon a:nth-child(6) {
+	background-position: -104px -216px;
+}

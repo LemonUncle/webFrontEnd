@@ -1,0 +1,408 @@
+/****** 中间分类部分样式   ******/
+.grid {
+	position: relative;
+	height: 480px;
+}
+
+.ad {
+	position: absolute;
+	left: -250px;
+	width: 250px;
+	height: 480px;
+	z-index: 999;
+}
+
+.ad img:last-child {
+	position: absolute;
+	top: 0;
+	left: 250px;
+	width: 0;
+	height: 480px;
+	transition: all 0.3s;
+}
+
+.ad:hover img:last-child {
+	width: 990px;
+}
+
+.grid-1 {
+	width: 190px;
+	height: 100%;
+	background-color: #6e6568;
+	margin-right: 10px;
+}
+
+.grid-1 ul {
+	margin-top: 14px;
+}
+
+.grid-1 ul li {
+	color: #fff;
+	padding-left: 12px;
+	line-height: 28px;
+	font-size: 12px;
+}
+
+.grid-1 ul li:hover {
+	background-color: #9c9698;
+}
+
+.grid-1 ul li a {
+	color: #fff;
+	font-size: 14px;
+	margin: 0 4px;
+}
+
+.grid-1 ul li a:hover {
+	color: #f10015;
+}
+
+.grid-2 {
+	width: 790px;
+	height: 100%;
+	margin-right: 10px;
+}
+
+.grid-2-t {
+	position: relative;
+	height: 340px;
+	background-color: pink;
+	margin-bottom: 10px;
+}
+
+.grid-2-t:hover .arrow-l, 
+.grid-2-t:hover .arrow-r {
+	display: block;
+}
+
+.arrow-l, 
+.arrow-r {
+	display: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -37.5px;
+	width: 37px;
+	height: 75px;
+	font-size: 20px;
+	font-weight: 200;
+	color: #fff;
+	text-align: center;
+	line-height: 75px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.arrow-l:hover, 
+.arrow-r:hover {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.arrow-l {
+	left: 0;
+}
+
+.arrow-r {
+	right: 0;
+}
+
+.circle {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -91px;
+	width: 182px;
+	height: 20px;
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 12px;
+}
+
+.circle li {
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 4px 8.8px 4px 0;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.circle li:first-child {
+	margin-left: 12px;
+}
+
+.circle li:last-child {
+	margin-right: 12px;
+}
+
+.circle li.current {
+	background-color: #db1a2b;
+}
+
+.grid-2-b {
+	height: 130px;
+}
+
+.grid-2-b div {
+	width: 390px;
+	height: 130px;
+}
+
+.grid-3 {
+	width: 192px;
+	height: 100%;
+	background-color: #fff;
+}
+
+.login {
+	width: 100%;
+	height: 115px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.login-t {
+	position: relative;
+	width: 100%;
+	height: 75px;
+	line-height: 22px;
+	padding: 15px;
+	padding-top: 23px;
+	padding-left: 66px;
+	font-size: 12px;
+	color: #666;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	box-sizing: border-box;
+}
+
+.stamp {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 46px;
+	height: 46px;
+	background: url(../images/no_login.jpg) no-repeat left center;
+	background-size: 46px;
+	border-radius: 50%;
+}
+
+.login-b a {
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	margin-top: 5px;
+	color: #e01222;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	border: 2px solid #e01222;
+}
+
+.login-b a:hover {
+	color: #fff;
+	background-color: #e01222;
+}
+
+.login-b a:first-child {
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+.news {
+	width: 100%;
+	height: 154px;
+	padding: 7px 14px 0;
+	border-bottom: 1px solid #e6e6e6;
+	box-sizing: border-box;
+}
+
+.news-t {
+	position: relative;
+	width: 100%;
+	height: 20px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.news-t a {
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #333;
+}
+
+.news-t .sale {
+	width: 36px;
+	border-right: 1px solid #e6e6e6;
+}
+
+.news-t .bulletin {
+	width: 36px;
+	margin-left: 15px;
+}
+
+.news-t .more {
+	float: right;
+}
+
+.news-t .more:hover {
+	color: #db2323;
+}
+
+.news-t div {
+	position: absolute;
+	left: -2px;
+	bottom: -1px;
+	width: 28px;
+	height: 2px;
+	background-color: #db2323;
+}
+
+.news-b {
+	width: 100%;
+	height: 133px;
+}
+.news-b ul {
+	margin-top: 18px;
+}
+.news-b ul li {
+	height: 24px;
+}
+
+.news-b ul li a {
+	color: #333;
+	font-size: 12px;
+}
+
+.news-b ul li a:hover {
+	color: #db2323;
+}
+
+.expand {
+	width: 100%;
+	height: 209px;
+}
+
+.expand ul li {
+	float: left;
+	width: 47px;
+	height: 69px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.expand ul li:nth-child(4n) {
+	border-right: 0;
+}
+
+.expand li a {
+	display: block;
+	color: #666;
+	font-size: 12px;
+	text-align: center;
+}
+
+.expand li a:hover {
+	color: #db2323;
+}
+
+.expand li a i {
+	display: block;
+	margin: 0 auto;
+	background: url(../images/sprite.png);
+}
+
+.expand li:first-child a i {
+	width: 15px;
+	height: 21px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	background-position: -5px -89px;
+}
+
+.expand li:nth-child(2) a i {
+	width: 21px;
+	height: 22px;
+	margin-top: 15px;
+	margin-bottom: 9px;
+	background-position: -1px -44px;
+}
+
+.expand li:nth-child(3) a i {
+	width: 20px;
+	height: 22px;
+	margin-top: 16px;
+	margin-bottom: 8px;
+	background-position: -46px -89px;
+}
+
+.expand li:nth-child(4) a i {
+	width: 26px;
+	height: 15px;
+	margin-top: 20px;
+	margin-bottom: 11px;
+	background-position: -87px -5px;
+}
+
+.expand li:nth-child(5) a i {
+	width: 24px;
+	height: 18px;
+	margin-top: 17px;
+	margin-bottom: 11px;
+	background-position: -88px -47px;
+}
+
+.expand li:nth-child(6) a i {
+	width: 19px;
+	height: 21px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	background-position: -3px -1px;
+}
+
+.expand li:nth-child(7) a i {
+	width: 23px;
+	height: 18px;
+	margin-top: 18px;
+	margin-bottom: 10px;
+	background-position: -45px -47px;
+}
+
+.expand li:nth-child(8) a i {
+	width: 16px;
+	height: 24px;
+	margin-top: 15px;
+	margin-bottom: 7px;
+	background-position: -93px -88px;
+}
+
+.expand li:nth-child(9) a i {
+	width: 20px;
+	height: 22px;
+	margin-top: 15px;
+	margin-bottom: 9px;
+	background-position: -134px -1px;
+}
+
+.expand li:nth-child(10) a i {
+	width: 19px;
+	height: 25px;
+	margin-top: 15px;
+	margin-bottom: 6px;
+	background-position: -135px -44px;
+}
+
+.expand li:nth-child(11) a i {
+	width: 24px;
+	height: 15px;
+	margin-top: 19px;
+	margin-bottom: 12px;
+	background-position: -132px -93px;
+}
+
+.expand li:last-child a i {
+	width: 16px;
+	height: 25px;
+	margin-top: 15px;
+	margin-bottom: 6px;
+	background-position: -48px 0;
+}

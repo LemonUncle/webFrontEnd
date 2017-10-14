@@ -1,0 +1,12 @@
+设置好文件结构（6个）： CSS, JS, images, fonts, index.html, favicon.ico
+跨浏览器兼容 ——> 初始化 ——> normalize.css
+寻找网站中多个网页的共同样式 ——> base.css
+设置网页标题小图标(favicon.ico): 一般可直接去所属站点找，硬性规定存放与根目录
+favicon.ico插入方式: <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+转换ico图片方式： bitbug网站
+SEO优化（搜索引擎优化）: title description keywords
+	title --> 28个汉字 （产品名 + 介绍）
+	description --> 120个汉字
+	keywords --> 6-8个关键字
+全屏截图 --> 获取网页素材
+确定版心（宽度） ——> 从header开始（广告） ——> 导航栏shortcut 
